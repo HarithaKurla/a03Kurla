@@ -1,0 +1,150 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BookOrder</title>
+    <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+<style>
+ body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+               
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Northwest Tution Fee Calculation</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" onsubmit="return false">
+               <div class="form-group">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="form-group">
+              <a href="aboutme.html">About Me</a>
+            </div>
+            <div class="form-group">
+             <a class="active" href="bookorder.html">Tution Fee Calculation</a>
+            </div>
+            <div class="form-group">
+            <a href="contact.html">Contact</a>
+            </div>
+             <div class="form-group">
+               <a href="guest.html">GuestBook</a>
+            </div>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="row">
+    
+        
+
+    <br>
+
+<br>
+
+<br>
+<br>
+
+<br>
+ <h1 align="center">Want to know your fee estimation, check out here.</h1> 
+        </div>
+    </div>
+    <div class="row1">
+        <div class="col-md-3">
+        </div>
+     <div class="col-md-6 "> 
+         <br>
+         
+     <div class="contactClass"  id="costForm">   
+    <table class="feetable">
+        <tr class="feetable"><td class="feetable" align="right" valign="top">Course Type*</p></td>
+        <td class="feetable"><input type="radio" value="Undergraduation" name="CourseType">Undergraduation</td>
+        <td class="feetable"><input type="radio" vaue="Graduation" name="CourseType">Graduation</td></tr>
+        
+    <tr class="feetable"><td class="feetable" align="right" valign="top">Type of Student*</td>
+    <td class="feetable"><select id="StudentDropdown"size="1">
+        <option selected="selected" value="0">------------Select--------------</option>
+    <option value="instate">In-State</option>
+    <option value="outstate">Out-of-State</option>
+    <option value="international">International</option>
+    </select></td></tr>
+    <tr class="feetable">
+        <td class="feetable" align="right" valign="top">
+            Total number of In-Class credits hours*
+        </td>
+        <td class="feetable">
+            <input  class="form-control" type="number" name="Inclass">
+        </td>
+    </tr>
+    <!--<tr><td>
+    Date</td>
+    <td><input class="form-control" type="date"></td></tr>-->
+    <tr class="feetable">
+        <td class="feetable" align="right" valign="top">
+            Total number of OnLine credits hours*
+        </td>
+        <td class="feetable">
+            <input  class="form-control" type="number" name="Online">
+        </td>
+    <tr class="feetable"><td class="feetable" align="right" valign="top">Residency Needed?*</td>
+        <td class="feetable"><input type="radio" value="1000" name="Residency">YES</td>
+        <td class="feetable"><input type="radio" vaue="0" name="Residency">NO</td></tr>
+   <tr class="feetable"><td class="feetable" align="right" valign="top">TextBooks Required?*</td>
+        <td class="feetable"><input type="radio" value="200" name="TextBooks">YES</td>
+        <td class="feetable"><input type="radio" vaue="0" name="TextBooks">NO</td></tr>
+    <tr class="feetable"><td class="feetable" align="right" valign="top">Check if following utilities needed</td>
+    <td  class="feetable" align="left" valign="top"><input type="checkbox"  name="checkbox" value="200">Parking Lot<br>
+    <input type="checkbox"  name="checkbox" value="300">GYM<br>
+     <input type="checkbox"  name="checkbox" value="150">Library</td></td>
+     <tr class="feetable"><td class="feetable" align="right" valign="top">Dining Meal Packs*</td>
+    <td class="feetable"><select id="Meals" size="1">
+        <option value="0">------------Select--------------</option>
+    <option value="0">None</option>
+    <option value="75">75 Meals Pack</option>
+    <option value="150">150 Meals Pack</option>
+    <option value="250">250 Meals Pack</option>
+    </select></td></tr>
+   <tr class="feetable">
+       <td class="feetable">
+       </td> <td class="feetable"><input  class="form-control" type="submit" value="Submit" onclick="submitForm(costForm); return false">
+       </td></tr>
+
+      
+    </table>
+    </div>
+    <p class="mandatory" align="center">"*" Marked fields are mandatory</p>
+     </div>
+     <div class="row2">
+         <div class="col-md-3">
+     </div>
+     <div class="col-md-8">
+         <span  id="result"></span>
+          <span id="Totalcost"></span>
+     </div>
+     
+</div>
+
+ <script src="js/vendor/bootstrap.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+        <script src="js/main.js"></script>
+</body>
+</html>

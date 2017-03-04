@@ -1,0 +1,178 @@
+
+
+.navbar-collapse collapse
+{
+ float:left;height:50px;padding:15px 15px;font-size:25px;line-height:20px;
+ text-align: right,center;
+ color: lightgrey;
+}
+.navbar-brand
+{
+     float:left;height:50px;padding:15px 15px;font-size:25px;line-height:20px;
+  text-align: left,center;  
+  color: lightgrey;
+}
+* 
+	{
+		padding: 1;
+		margin: 1;
+		
+	} 
+	.feetable
+	{
+border:1px solid white;
+	}
+	.mandatory
+	{
+		color: red
+	}
+	#Totalcost,#result
+	{
+		color:blue;
+		text-align: center;
+	}
+
+.mainbody
+	{
+		/*background-image:url("initializr\bg.png");*/
+		/*background-color: lightgrey;*/
+		font: .74em "Trebuchet MS" Verdana, Arial, sans-serif;
+		line-height: 1.5em; 
+	}
+	.vr {
+    width:1px;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:150px;
+}
+
+hr{
+	width:800px;
+	height: 1px;
+		color:black;
+		
+}
+u
+	{
+			color:black;
+		font-style:italic;
+		font-size:20 px;
+	}
+p
+	{
+			color:black;
+		font-size:1;	
+	}
+	.fb
+	{
+		width:32px;
+		height:32px;
+	}
+	
+#place
+{
+		color:black;
+	
+}
+table{
+	 border-collapse: collapse;
+}
+tr,td
+	{
+		
+		border:1px solid black;
+		
+	}
+
+	tr:hover{
+		background-color:#f5f5f5;
+	}
+.tablecolumn1
+	{
+		color:black;
+		font-style:bold;
+		text-align:center;
+	}
+.tablecolumn2
+	{
+		color:black;
+		text-align:left;
+	}
+.bookHeading,.bookForm,
+	{
+		align-content: center;
+		align-items: center;
+		text-align: center;
+		text-align: center;
+		
+	}
+
+    .img-circle
+    {
+        border-radius: 50%;
+        width:200px;
+        height:200px;
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a , {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.active
+{
+	background-color:white;
+    color:blue;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.query,video
+{
+	width:200px;
+	height:200px;
+}
+	
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
